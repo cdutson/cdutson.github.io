@@ -2,32 +2,56 @@
 <html>
   <head>
     <title>CDutson</title>
-    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <section>
+      <h1>CDutson</h1>
+      <p>
+        Placeholder landing page to eventually be something more impressive.
+      </p>
+      <h2>Links!</h2>
+      <dl>
+        <dt>My socials</dt>
+        <dd>
+          <a href="https://solo.to/cdutson" target="_blank">My solo.to page</a>
+        </dd>
+        <dt>My schedule</dt>
+        <dd>
+          You can find a list of upcoming games I'll be streaming
+          <a href="https://cdutson.github.io/gameslist/schedule.html">here.</a>
+        </dd>
+        <dt>Keys available for redeem</dt>
+        <dd>
+          You can find a list of all the games I'm giving away through twitch
+          redeems
+          <a href="https://cdutson.github.io/gameslist/keys.html">here.</a>
+        </dd>
+        <dt>My games library</dt>
+        <dd>
+          <a href="https://cdutson.github.io/game-library/">Click here</a> to
+          see a list of all my games (useful for adding something to my
+          schedule).
+        </dd>
+      </dl>
 
-    <h1>CDutson</h1>
-    <p>Placeholder landing page to eventually be something more impressive.</p>
-    <section><dl>
-      <dt>My socials</dt>
-      <dd><a href="https://solo.to/cdutson" target="_blank">My solo.to page</a></dd>
-      <dt>My schedule</dt>
-      <dd>You can find a list of upcoming games I'll be streaming <a href="https://cdutson.github.io/gameslist/schedule.html">here.</a></dd>
-      <dt>Keys available for redeem</dt>
-      <dd>You can find a list of all the games I'm giving away through twitch redeems <a href="https://cdutson.github.io/gameslist/keys.html">here.</a></dd>
-      <dt>
-        My games library
-      </dt>
-      <dd><a href="https://cdutson.github.io/game-library/">Click here</a> to see a list of all my games (useful for adding something to my schedule).</dd>
-    </dl>
+      <h2>Schedule</h2>
+      <ul>
+        <li>Monday: 9:30PM Eastern</li>
+        <li>Tuesday: 9:30PM Eastern</li>
+        <li>Wednesday: 9:30PM Eastern</li>
+        <li>Friay: 9:30PM Eastern</li>
+      </ul>
     </section>
 
     <section>
-    <!-- Add a placeholder for the Twitch embed -->
-    <div id="twitch-embed"></div>
+      <h1>Live feed</h1>
+      <div class="twitch-frame">
+        <div id="twitch-embed"></div>
+      </div>
     </section>
 
-        <!-- Load the Twitch embed JavaScript file -->
+    <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
@@ -38,7 +62,8 @@
         theme: "dark",
         channel: "cdutson",
         // Only needed if this page is going to be embedded on other websites
-        parent: ["cdutson.github.io"]
+        parent: ["cdutson.github.io"],
       });
     </script>
+  </body>
 </html>

@@ -44,3 +44,11 @@ a {
 section {
   margin-bottom: 40px;
 }
+
+.twitch-frame {
+  display: inline-block;
+  border: 3px solid #00e0a4;
+  background: #490077;
+  border-radius: 5px;
+  padding: 10px;
+}
